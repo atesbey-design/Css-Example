@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+body {
+    background-color: black;
+}
+
+.amblem {
+    position: relative;
+    left: 85vh;
+    top: 40vh;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 40% 0 40%;
+    animation: sağdön 2s 1;
+    left: 35vh;
+}
+
+.amblem1 {
+    position: absolute;
+    left: 95vh;
+    top: 40vh;
+    border: 1px solid blue;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    border-radius: 40% 0 40%;
+    animation: amblem1Effect 2s 1;
+    left: 145vh;
+}
+
+@keyframes amblem1Effect {
+    10% {
+        left: 100vh;
+    }
+    20% {
+        left: 105vh;
+    }
+    30% {
+        left: 110vh;
+    }
+    40% {
+        left: 115vh;
+    }
+    50% {
+        left: 120vh;
+    }
+    60% {
+        left: 125vh;
+    }
+    70% {
+        left: 130vh;
+    }
+    80% {
+        left: 135vh;
+    }
+    90% {
+        left: 140vh;
+    }
+    100% {
+        left: 145vh;
+    }
+}
+
+@keyframes denesol {
+    100% {
+        left: 100vh;
+    }
+    90% {
+        left: 105vh;
+    }
+    80% {
+        left: 110vh;
+    }
+    70% {
+        left: 115vh;
+    }
+    60% {
+        left: 120vh;
+    }
+    50% {
+        left: 125vh;
+    }
+    40% {
+        left: 130vh;
+    }
+    30% {
+        left: 135vh;
+    }
+    20% {
+        left: 140vh;
+    }
+    10% {
+        left: 145vh;
+    }
+}
+
+@keyframes sağdön {
+    10% {
+        left: 80vh;
+    }
+    20% {
+        left: 75vh;
+    }
+    30% {
+        left: 70vh;
+    }
+    40% {
+        left: 65vh;
+    }
+    50% {
+        left: 60vh;
+    }
+    60% {
+        left: 55vh;
+    }
+    70% {
+        left: 50vh;
+    }
+    80% {
+        left: 45vh;
+    }
+    90% {
+        left: 40vh;
+    }
+    100% {
+        left: 35vh;
+    }
+}
+
+h1 {
+    font-family: 'Reggae One', cursive;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 23vh;
+    left: 5vh;
+    font-size: 30px;
+    animation: yazi 2s 1;
+    font-size: 51px;
+}
+
+@keyframes yazi {
+    0% {
+        font-size: 31px;
+    }
+    10% {
+        font-size: 33px;
+    }
+    20% {
+        font-size: 35px;
+    }
+    30% {
+        font-size: 37px;
+    }
+    40% {
+        font-size: 39px;
+    }
+    50% {
+        font-size: 41px;
+    }
+    60% {
+        font-size: 43px;
+    }
+    70% {
+        font-size: 45px;
+    }
+    80% {
+        font-size: 47px;
+    }
+    90% {
+        font-size: 49px;
+    }
+    100% {
+        font-size: 51px;
+    }
+}
